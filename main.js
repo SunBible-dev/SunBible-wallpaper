@@ -14,7 +14,7 @@ app.whenReady().then(() => {
         resizable: false,
         alwaysOnTop: true,
         maximizable: false,
-        minimizable: false,
+        minimizable: true,
         width: 800,
         height: 500,
         webPreferences: {
@@ -26,5 +26,8 @@ app.whenReady().then(() => {
     // Load our index.html
     mainWindow.loadFile('index.html')
     mainWindow.removeMenu()
+
+
+
 
 })

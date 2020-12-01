@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>SunBible WallPaper</title>
 <style>
-    @import url('style.css');
+    @import url('css/style.css');
 </style>
+<script src="node_modules/wallpaper/index.js"></script>
     </head>
+
     <body>
-        <h1>Hi!</h1>
+        <h1>SunBible WallPaper</h1>
+
+<img src="img/JoshuaWallpaper.png"
+onclick="
+const wallpaper = require('wallpaper');
+
+            (async () => {
+                await wallpaper.set('img/JoshuaWallpaper.png');
+                })();
+"/>
+
+<img src="img/GenesisWallpaper.png"
+onclick="
+const wallpaper = require('wallpaper');
+
+            (async () => {
+                await wallpaper.set('img/GenesisWallpaper.png');
+                })();
+"/>
+
 
 
 
