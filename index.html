@@ -5,8 +5,12 @@
 <style>
     @import url('css/style.css');
 </style>
-<script src="js/wallpaper/index.js"></script>
+
+<script type="module" src="js/wallpaper/index.js">import { wallpaper } from 'js/wallpaper/index.js';</script>
 <script src="js/wallpaper/source/win.js"></script>
+<script src="js/path.js"></script>
+<script src="js/jquery-3.5.1.min.js"></script>
+
     </head>
 
     <body>
@@ -25,8 +29,7 @@
 
 
 <div>
-<img src="img/Genesis27_28.png"
-onclick="
+<img class="img" src="img/Genesis27_28.png" onclick="
 const wallpaper = require('wallpaper');
 wallpaper.set('img/Genesis27_28.png');
 "/>
@@ -60,12 +63,7 @@ wallpaper.set('img/John3_16.png');
 " />
 </div>
 
-<div>
-<img src="https://the-sunshining.github.io/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/Psalm2/Psalm2_1.png" onclick="
-const wallpaper = require('wallpaper');
-wallpaper.set('https://the-sunshining.github.io/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/Psalm2/Psalm2_1.png');
-" />
-</div>
+
 
 
 
