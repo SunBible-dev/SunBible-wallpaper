@@ -31,6 +31,7 @@
         "pack": "electron-builder --dir",
         "dist": "electron-builder",
         "deb": "electron-builder --linux deb",
+        "rpm": "electron-builder --linux rpm",
         "AppImage": "electron-builder --linux AppImage",
         "snap": "electron-builder --linux snap",
         "apk": "electron-builder --linux apk",
