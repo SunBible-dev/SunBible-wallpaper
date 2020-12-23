@@ -40,6 +40,6 @@
         "dmg": "electron-builder --mac dmg"
     },
     "dependencies": {
-        "wallpaper": "^4.4.2"
+        "electron-context-menu": "^2.3.0"
     }
 }
