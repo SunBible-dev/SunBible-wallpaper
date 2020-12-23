@@ -19,7 +19,7 @@ app.on('ready', async () => {
         }
     })
 
-    mainWindow.loadFile('app-iframe.html')
+    mainWindow.loadFile('wallpaper-app-iframe.html')
     mainWindow.removeMenu()
 
     // const { session } = require('electron')
